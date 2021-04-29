@@ -20,6 +20,10 @@ class ViewController: UIViewController {
         super.viewWillAppear(animated)
     }
     
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+    }
+    
     @IBAction func keyPressed(_ sender: UIButton) {
       playSound(soundName: sender.currentTitle!)
 
